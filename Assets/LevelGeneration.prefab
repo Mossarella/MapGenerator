@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6341020387945415602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6341020387945415600}
+  - component: {fileID: 6341020387945415601}
+  m_Layer: 0
+  m_Name: LevelGeneration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6341020387945415600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6341020387945415602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6341020387945415601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6341020387945415602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85495cc2a23b82a44ab00469de43971f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingPosition:
+  - {fileID: 8774949723944005040, guid: b275e100ffaad73408ff853a318a5f33, type: 3}
+  rooms:
+  - {fileID: 1296806324509223027, guid: a2516d16f28935648ad04d989f4683c9, type: 3}
+  - {fileID: 2088739643833154067, guid: ac1121ed25783c34fa48a8d86bba6283, type: 3}
+  - {fileID: 8505688966837710961, guid: e32016a18c8f5604f82641e6f26dcffe, type: 3}
+  - {fileID: 4453874463915628328, guid: 788ac6f8edab9ed4fb39f5d876eb5bdc, type: 3}
+  - {fileID: 3919066034406673027, guid: 484c063a915c6a049aa82505959b9a8b, type: 3}
+  - {fileID: 2571589768003316679, guid: bb0870635f264a841be2f75b747934ba, type: 3}
+  - {fileID: 121130806520368701, guid: aeead685b3ffb6947ae5109937814d9b, type: 3}
+  - {fileID: 5025900444356360849, guid: b6ced5c0e8a85f349ab380f8cd09ee2a, type: 3}
+  moveAmount: 10
+  totalRoom: 20
+  startTimeBetweenRoom: 0.1
+  minX: -25
+  maxX: 25
+  minY: -Infinity
+  generatedCount: 0

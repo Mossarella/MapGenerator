@@ -383,7 +383,7 @@ MonoBehaviour:
   - {fileID: 121130806520368701, guid: aeead685b3ffb6947ae5109937814d9b, type: 3}
   - {fileID: 5025900444356360849, guid: b6ced5c0e8a85f349ab380f8cd09ee2a, type: 3}
   moveAmount: 10
-  totalRoom: 10
+  totalRoom: 20
   startTimeBetweenRoom: 0.1
   minX: -25
   maxX: 25
